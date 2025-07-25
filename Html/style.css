@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #7590a3;
+  color: #04e229;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffffff;
+}
+p {
+  line-height: 1.6;
+}
+nav {
+  background-color: #58779d; /* warna latar belakang navigasi */
+  display: flex; /*untuk hoprizontal */
+  align-items: center; /* agar item ketengah*/
+  justify-content: space-between; /* beri space ruang */
+}
+ul {
+  display: flex;
+  gap: 2.1rem;
+}
+ul li {
+  list-style: none; /* menghilangkan bullet point */
+  cursor: pointer; /* mengubah kursor saat hover */
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+ul li a {
+  text-decoration: none; /* menghilangkan garis bawah pada link */
+  color: #ffffff; /* warna teks link */
+  font-weight: 900; /* membuat teks link lebih tebal */
+  transition: color 0.3s ease-in-out; /* efek transisi saat hover */
+  margin-right: 1rem; /* memberi jarak kanan */
+}
+ul li a:hover {
+  color: #000000; /* warna teks link saat hover */
+}
+.nav-logo {
+  font-size: 1rem; /* ukuran font logo */
+  font-weight: bold; /* membuat teks logo lebih tebal */
+  color: #ffffff; /* warna teks logo */
+  margin-left: 1rem; /* memberi jarak kiri */
+}
+
+.nav-menu {
+  display: flex; /* untuk membuat menu horizontal */
+  align-items: center; /* agar item ketengah */
+  gap: 1.5rem; /* memberi jarak antar item */
+  margin-right: 1rem; /* memberi jarak kanan */
+}
